@@ -1,0 +1,80 @@
+Forward-Deployed Engineer at Zeit Ai
+
+ZeitMind, the autonomous data engineer for the European mid-market
+
+About Zeit AI
+In the coming years, AI agents will take over the work of internal data teams. We’re building the one companies will use. ZeitMind connects to the systems companies already run (ERP, CRM, spreadsheets, internal databases), cleans messy data, runs analyses on its own and builds data applications. Every employee can work with data in plain language, with no technical degree and no help from IT.
+Our customers use it to organise agricultural inventories, to schedule maintenance, crews and flights for jet operators, and to replace controllers’ manual Excel reports.
+Founded by Marvin and Leopold, both ex-Palantir. YC S24, backed by Oxford Seed Fund and Sequoia Scout. Zero to €1M ARR in our first twelve months with six people.
+
+Your mission
+Forward Deployed Engineers find where real value is hidden in a company’s data and build the apps that unlock it. Half business, half tech: you’re as comfortable in front of a CEO as inside a dataset.
+
+What you’ll do
+- Spend real time at customer sites, from the CFO’s office to the warehouse floor, and get to the core of an unfamiliar business fast
+
+- Decide what’s worth building, and just as importantly, what isn’t
+
+- Use ZeitMind to connect customer data, model business logic (margins, costs, stock, pricing) and ship operational apps within days
+
+- Present to managing directors and owners, and take them from “interesting demo” to “we run on this every day”
+
+- Own a portfolio of customers end to end, and shape our product and how we deploy it
+
+What we value
+- You learn fast. New industry, new data, new terms: you get up to speed in no time.
+
+- You bring structure. You break messy problems into clear parts and know where to start.
+
+- You care about outcomes. You go after the root cause and the euro value, not the nice-looking analysis.
+
+- You’re rigorous. You can explain exactly how a number came about.
+
+- You make things happen. You don’t wait for a perfect brief. You take ownership and move.
+
+We hire across levels, from exceptional early-career talent to senior FDEs who’ve led complex client engagements.
+
+Backgrounds that fit well (none of these is a must)
+- Consulting. You’ve led client work across industries and know how to win over a managing director.
+
+- Software implementation or value engineering. You’ve rolled out software at customers and made sure it actually got used.
+
+- Data analytics, BI or controlling. You’ve worked hands-on with real company data.
+
+- Technical foundation. You’ve studied something quantitative or picked up SQL along the way, and you like knowing how things work under the hood.
+
+You don’t need to be a software engineer, but you should have a natural pull towards data and technology. ZeitMind does the heavy lifting.
+
+The basics
+- English at C1 or above. German is a big plus, since many of our customers work in German.
+
+- You’re excited to work in-person in Munich or London and at customer sites, at an early-stage startup pace.
+
+What we offer
+- Real ownership from day one, full trust and maximum support
+
+- Best tools, zero blockers
+
+- Daily lunch allowance, dinner covered in the office, Wellpass
+
+- Regular team offsites
+
+- Relocation support within Europe
+
+- €5k referral bonus if we hire someone you refer
+
+Interview process
+- First call with Elena
+
+- Decomposition interview
+
+- ZeitMind take-home case 
+
+- Founder conversation with Leopold and lunch with the team
+
+- References → offer
+
+We aim to get through this in two weeks.
+Compensation: €70K – €160K • Offers Equity
+-  • €70K – €160K • Offers Equity
+Find Jobs in Germany on Arbeitnow

@@ -1,0 +1,154 @@
+{
+ "posting_id": "remotive-2091168",
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "High school diploma or GED",
+   "required": true,
+   "category": "education"
+  },
+  {
+   "id": "r2",
+   "text": "Experience in healthcare, insurance, or customer service",
+   "required": true,
+   "category": "experience"
+  },
+  {
+   "id": "r3",
+   "text": "Experience with prescription assistance programs",
+   "required": false,
+   "category": "experience"
+  },
+  {
+   "id": "r4",
+   "text": "Strong attention to detail and ability to navigate complex processes",
+   "required": true,
+   "category": "skill"
+  },
+  {
+   "id": "r5",
+   "text": "Excellent communication skills for working with patients, healthcare providers, and pharmacies",
+   "required": true,
+   "category": "skill"
+  },
+  {
+   "id": "r6",
+   "text": "Ability to work efficiently and collaboratively within a team environment",
+   "required": true,
+   "category": "skill"
+  },
+  {
+   "id": "r7",
+   "text": "Comfort with technology and ability to learn new systems quickly",
+   "required": true,
+   "category": "skill"
+  },
+  {
+   "id": "r8",
+   "text": "Self-motivation and ability to manage time effectively in a remote environment",
+   "required": true,
+   "category": "skill"
+  },
+  {
+   "id": "r9",
+   "text": "Adaptability to changing technologies and procedures",
+   "required": true,
+   "category": "other"
+  },
+  {
+   "id": "r10",
+   "text": "Genuine passion for helping others and making a positive impact on healthcare access",
+   "required": false,
+   "category": "other"
+  }
+ ],
+ "resumes": [
+  {
+   "resume_id": "remotive-2091168-strong",
+   "profile": "strong",
+   "text": "Maya Thornfield\nSummary: Customer-focused professional with a GED and four years of healthcare and insurance service experience. I bring a genuine passion for helping people, careful work habits and a steady, self-directed approach to working from home. Outside work I volunteer at a community pantry on weekends, helping families sort and deliver groceries.\n\nExperience\nClaims Support Specialist, Harbor Health Partners (March 2021 to present, remote)\n- Handle inbound calls from members, providers and pharmacies about benefit eligibility and claim status.\n- Reconciled over 200 claim files each week with zero missed discrepancies across eighteen months.\n- Serve on a six-person support team that shares call coverage and process updates.\n- Have worked from a home office for three years, meeting every call handling and quality target without onsite supervision.\n- Completed training on three new case management platforms within two weeks of each rollout, adjusting quickly to changed procedures.\n- Trained two new hires on claim review checklists and call scripts.\n- Keep detailed case notes so follow-up teams can pick up each file without delay.\n\nCustomer Service Representative, Bayview Medical Billing Group (June 2018 to February 2021, Columbus, Ohio)\n- Answered patient billing questions and explained statements in plain language.\n- Processed medical billing claims and resolved denials for a regional clinic network.\n- Earned a recognition award for improving first call resolution.\n- Tracked daily call volume and reported weekly trends to the team lead.\n\nEducation\nGED, Franklin County Adult Education, Ohio, 2018\n\nSkills\nClear verbal and written communication, Salesforce, Zendesk, Microsoft Office, CRM tools, customer support, learning new systems quickly, technology comfort, time management.",
+   "truth": {
+    "r1": "met",
+    "r2": "met",
+    "r3": "not_met",
+    "r4": "met",
+    "r5": "met",
+    "r6": "met",
+    "r7": "met",
+    "r8": "met",
+    "r9": "met",
+    "r10": "met"
+   },
+   "hardness": {
+    "r1": "explicit",
+    "r2": "explicit",
+    "r3": "near_miss",
+    "r4": "paraphrased",
+    "r5": "explicit",
+    "r6": "paraphrased",
+    "r7": "explicit",
+    "r8": "paraphrased",
+    "r9": "paraphrased",
+    "r10": "explicit"
+   }
+  },
+  {
+   "resume_id": "remotive-2091168-partial",
+   "profile": "partial",
+   "text": "Daniel Rivas\nSummary: Dependable professional with a high school diploma and hands-on experience in utility and retail customer service. I work well with others and keep customers informed through every step.\n\nExperience\nUtility Customer Care Agent, Lakeshore Power and Gas (April 2019 to present, Toledo, Ohio)\n- Handle inbound billing calls from residential customers about usage, payment plans and outages.\n- Explain bills and rate changes clearly to customers who are frustrated or confused.\n- Work as part of a twelve-agent team that shares shift coverage and escalations.\n- Caught keying errors in work orders before they reached the field crew, which reduced repeat callbacks.\n- Maintain a 96 percent quality score across monthly audits.\n- All of my work so far has been onsite on the call floor under a shift supervisor who sets my daily priorities.\n\nSales Associate, Maple Street Hardware (June 2016 to March 2019, Toledo, Ohio)\n- Helped walk-in customers find products and answered questions about home repairs.\n- Trained five new hires on the point-of-sale system.\n- Handled cash drawer reconciliation at the close of each shift.\n- Kept shelves stocked and organized seasonal displays for weekend promotions.\n\nEducation\nHigh school diploma, Start High School, Toledo, 2016. Completed a six-week customer service course at the community college in 2019.\n\nSkills\nTeam player, comfortable using computers, phone systems and billing software every day, customer service, billing questions, Microsoft Office basics, conversational Spanish, active listening, phone etiquette. Hobbies include cooking and cycling. Volunteer youth soccer coach each spring, planning practices and keeping parents informed.",
+   "truth": {
+    "r1": "met",
+    "r2": "met",
+    "r3": "not_met",
+    "r4": "met",
+    "r5": "not_met",
+    "r6": "met",
+    "r7": "met",
+    "r8": "not_met",
+    "r9": "not_met",
+    "r10": "not_met"
+   },
+   "hardness": {
+    "r1": "explicit",
+    "r2": "explicit",
+    "r3": "absent",
+    "r4": "paraphrased",
+    "r5": "near_miss",
+    "r6": "explicit",
+    "r7": "explicit",
+    "r8": "near_miss",
+    "r9": "absent",
+    "r10": "absent"
+   }
+  },
+  {
+   "resume_id": "remotive-2091168-weak",
+   "profile": "weak",
+   "text": "Carlos Mendez\nSummary: Hardworking warehouse professional with eight years of experience in inventory control and material handling. Focused on safe operations, accurate counts and reliable attendance. Experience across day and night shifts since 2014. Known for steady performance under pressure and a clean safety record.\n\nExperience\nInventory Control Lead, Ridgeline Distribution Center (February 2017 to present, Dayton, Ohio)\n- Counted and verified about 500 pallet items each shift with no recorded inventory errors over two years.\n- Coordinate outbound loading schedules for the shift and keep dock doors moving on time.\n- Track stock movements in a paper ledger that the warehouse manager reviews every Friday; I have not used warehouse management software.\n- Keep the scale and handheld counters calibrated and track parts and supplies inventory each week.\n- Never missed a scheduled shift in five years.\n\nForklift Operator, Miami Valley Logistics (March 2014 to January 2017, Dayton, Ohio)\n- Operated sit-down forklifts and reach trucks in a cold storage facility.\n- Maintained equipment logs and reported safety hazards to supervisors.\n- Completed a pallet jack and forklift safety refresher each year.\n- Loaded and unloaded trailers of up to 40,000 pounds during peak season.\n- Train new hires on forklift safety rules and dock procedures during their first week.\n\nEducation\nGED, Dayton, Ohio, 2013\n\nCertifications\nOSHA 10-hour general industry safety card, 2019; forklift operator license.\n\nSkills\nInventory counting, pallet jack operation, forklift operation, safety compliance, shipping and receiving, dock scheduling, lifting and material handling. Reliable transportation to work every day by motorcycle. Weekends I fish and repair small engines for neighbors.",
+   "truth": {
+    "r1": "met",
+    "r2": "not_met",
+    "r3": "not_met",
+    "r4": "met",
+    "r5": "not_met",
+    "r6": "not_met",
+    "r7": "not_met",
+    "r8": "not_met",
+    "r9": "not_met",
+    "r10": "not_met"
+   },
+   "hardness": {
+    "r1": "explicit",
+    "r2": "absent",
+    "r3": "absent",
+    "r4": "paraphrased",
+    "r5": "absent",
+    "r6": "absent",
+    "r7": "near_miss",
+    "r8": "absent",
+    "r9": "absent",
+    "r10": "absent"
+   }
+  }
+ ]
+}

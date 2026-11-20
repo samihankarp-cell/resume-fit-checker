@@ -1,0 +1,71 @@
+{
+ "v1_original": {
+  "dev": {
+   "items": 381,
+   "recall": 0.924,
+   "precision_vs_gold": 0.577,
+   "precision_with_judged_genuine_extras": 0.777,
+   "required_flag_accuracy": 0.933
+  },
+  "test": {
+   "items": 310,
+   "recall": 0.954,
+   "precision_vs_gold": 0.655,
+   "precision_with_judged_genuine_extras": 0.897,
+   "required_flag_accuracy": 0.83
+  },
+  "all": {
+   "items": 691,
+   "recall": 0.939,
+   "precision_vs_gold": 0.612,
+   "precision_with_judged_genuine_extras": 0.831,
+   "required_flag_accuracy": 0.882
+  }
+ },
+ "v2_first_hardening": {
+  "dev": {
+   "items": 201,
+   "recall": 0.843,
+   "precision_vs_gold": 0.861,
+   "precision_with_judged_genuine_extras": 0.98,
+   "required_flag_accuracy": 0.847
+  },
+  "test": {
+   "items": 174,
+   "recall": 0.868,
+   "precision_vs_gold": 0.931,
+   "precision_with_judged_genuine_extras": 1.0,
+   "required_flag_accuracy": 0.743
+  },
+  "all": {
+   "items": 375,
+   "recall": 0.855,
+   "precision_vs_gold": 0.893,
+   "precision_with_judged_genuine_extras": 0.989,
+   "required_flag_accuracy": 0.796
+  }
+ },
+ "v3_final": {
+  "dev": {
+   "items": 286,
+   "recall": 0.888,
+   "precision_vs_gold": 0.619,
+   "precision_with_judged_genuine_extras": 0.962,
+   "required_flag_accuracy": 0.937
+  },
+  "test": {
+   "items": 263,
+   "recall": 0.914,
+   "precision_vs_gold": 0.677,
+   "precision_with_judged_genuine_extras": 0.989,
+   "required_flag_accuracy": 0.833
+  },
+  "all": {
+   "items": 549,
+   "recall": 0.901,
+   "precision_vs_gold": 0.647,
+   "precision_with_judged_genuine_extras": 0.974,
+   "required_flag_accuracy": 0.884
+  }
+ }
+}

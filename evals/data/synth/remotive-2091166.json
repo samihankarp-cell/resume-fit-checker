@@ -1,0 +1,154 @@
+{
+ "posting_id": "remotive-2091166",
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Excellent written and verbal communication skills in English",
+   "required": true,
+   "category": "skill"
+  },
+  {
+   "id": "r2",
+   "text": "Has resided in the United States for the past three consecutive years",
+   "required": true,
+   "category": "other"
+  },
+  {
+   "id": "r3",
+   "text": "Familiarity with current and historical US business, media, sports, news, social media, and cultural affairs",
+   "required": true,
+   "category": "other"
+  },
+  {
+   "id": "r4",
+   "text": "Active use of Gmail and social media platforms",
+   "required": true,
+   "category": "skill"
+  },
+  {
+   "id": "r5",
+   "text": "Experience using web browsers to navigate and interact with a variety of online content",
+   "required": true,
+   "category": "skill"
+  },
+  {
+   "id": "r6",
+   "text": "Daily access to a reliable broadband internet connection",
+   "required": true,
+   "category": "other"
+  },
+  {
+   "id": "r7",
+   "text": "Access to a smartphone running Android 5.0 or higher, or iOS 14 or higher",
+   "required": true,
+   "category": "other"
+  },
+  {
+   "id": "r8",
+   "text": "Access to a personal computer",
+   "required": true,
+   "category": "other"
+  },
+  {
+   "id": "r9",
+   "text": "Enjoys evaluating online content",
+   "required": false,
+   "category": "skill"
+  },
+  {
+   "id": "r10",
+   "text": "Passing an English language assessment, open-book qualification exam, and ID verification",
+   "required": true,
+   "category": "certification"
+  }
+ ],
+ "resumes": [
+  {
+   "resume_id": "remotive-2091166-strong",
+   "profile": "strong",
+   "text": "Jordan Pike\nSummary: Detail-minded researcher and writer with three years of experience evaluating online sources. Excellent written and verbal communication in English. I have lived in the United States for two years since moving here in late 2024, after earlier years of study in Canada. I enjoy evaluating online content and spotting what makes a result useful.\n\nExperience\nOnline Research Analyst, Brightline Media Group (September 2024 to present, Austin, Texas, remote)\n- Spend most of the workday researching across dozens of online sources to verify facts for news stories and product listings.\n- Review search results and listings to check accuracy and relevance for client briefs.\n- Maintain a weekly summary of trending US sports, local news and cultural topics for the editorial team.\n- Completed a previous remote rating project that required passing an English exam and identity check.\n- Build weekly research briefs with source links for the editorial team, flagging anything unclear.\n- Mentor one junior analyst on source verification and documentation habits.\n\nContent Writer, Ledgerview Marketing (March 2023 to August 2024, Dallas, Texas)\n- Wrote product descriptions and blog posts for retail clients across social channels.\n- Managed daily posting schedules on Instagram, LinkedIn and Facebook.\n\nEducation\nBachelor of Arts in Communications, University of North Texas, 2022. Certificate in digital marketing, 2023. Outside work I write a monthly travel blog and enjoy hiking.\n\nSkills\nGmail and Google Workspace used daily, Instagram and LinkedIn, research, fact checking, relevance judgment, Microsoft Office, reliable home broadband internet, my personal laptop for all work, iPhone running iOS 17.",
+   "truth": {
+    "r1": "met",
+    "r2": "not_met",
+    "r3": "met",
+    "r4": "met",
+    "r5": "met",
+    "r6": "met",
+    "r7": "met",
+    "r8": "met",
+    "r9": "met",
+    "r10": "met"
+   },
+   "hardness": {
+    "r1": "explicit",
+    "r2": "near_miss",
+    "r3": "paraphrased",
+    "r4": "explicit",
+    "r5": "paraphrased",
+    "r6": "explicit",
+    "r7": "explicit",
+    "r8": "explicit",
+    "r9": "explicit",
+    "r10": "paraphrased"
+   }
+  },
+  {
+   "resume_id": "remotive-2091166-partial",
+   "profile": "partial",
+   "text": "Hannah Brooks\nSummary: Office and retail professional with six years of experience in customer-facing roles. Outgoing and organized, with a calm approach to busy days. Clear written and verbal communicator in English. I have lived in the United States for six years.\n\nExperience\nOffice Administrator, Greenfield Dental Supply (2020 to present, Tampa, Florida)\n- Manage the shared inbox and draft client emails in Gmail every day.\n- Post company updates to Facebook and Instagram and track engagement each month.\n- Coordinate staff schedules and keep the office supply budget within monthly limits.\n- Spend hours a day navigating vendor websites and online catalogs to place orders and verify product listings.\n- Follow UK business headlines and British sports leagues closely, and rarely read US news.\n- Work from the office on a fixed schedule. My home setup is a mobile hotspot with an unreliable signal, so I have not done remote work yet.\n- Use the public library computers when I need to do work outside the office, since I do not own a personal computer.\n\nSales Associate, Harbor Outfitters (2017 to 2020, Tampa, Florida)\n- Helped shoppers choose outdoor gear and handled returns at the register.\n- Trained seasonal staff on the point-of-sale system.\n- Greet clients at the front desk and keep the waiting area organized.\n\nEducation\nAssociate degree in Business Administration, Hillsborough Community College, 2017.\n\nSkills\nClear English writing, phone and in-person customer service, Gmail, Facebook and Instagram posting, Microsoft Word, scheduling, Samsung phone on Android 13, bilingual conversational Spanish. Hobbies include baking, hiking and local community theater.",
+   "truth": {
+    "r1": "met",
+    "r2": "met",
+    "r3": "not_met",
+    "r4": "met",
+    "r5": "met",
+    "r6": "not_met",
+    "r7": "met",
+    "r8": "not_met",
+    "r9": "not_met",
+    "r10": "not_met"
+   },
+   "hardness": {
+    "r1": "explicit",
+    "r2": "explicit",
+    "r3": "near_miss",
+    "r4": "explicit",
+    "r5": "paraphrased",
+    "r6": "near_miss",
+    "r7": "explicit",
+    "r8": "near_miss",
+    "r9": "absent",
+    "r10": "absent"
+   }
+  },
+  {
+   "resume_id": "remotive-2091166-weak",
+   "profile": "weak",
+   "text": "Ramon Villanueva\nSummary: Experienced automotive technician with nine years of hands-on work in engine repair and diagnostics. Fluent English speaker who explains repairs clearly to drivers and fleet managers. I am based in Quezon City and have worked in the trade since 2016. Most of my career has been in shop and fleet service.\n\nExperience\nLead Technician, Santos Auto Care (2019 to present, Quezon City, Philippines)\n- Diagnose engine, transmission and brake faults on passenger cars and light trucks.\n- Supervise two apprentice mechanics and assign daily repair orders.\n- Inspect parts before installation and log each job on paper work orders.\n- Explain repair options and costs to customers before work begins.\n- Calibrate torque wrenches and diagnostic scanners every month.\n- Train new apprentices on safe lifting, tool use and parts identification.\n- Quote parts and labor costs for customer approval before any work starts.\n- Manage shop parts orders with two local suppliers each week.\n\nMechanic, Manila Fleet Service (2016 to 2019, Manila, Philippines)\n- Performed preventive maintenance on delivery vans, including oil changes, tire rotation and brake service.\n- Kept maintenance records for forty vehicles.\n- Completed a 40-hour advanced brake systems course during that period.\n\nEducation\nTechnical vocational diploma in Automotive Servicing, TESDA accredited program, 2016.\n\nCertifications\nNational Certificate II in Automotive Servicing; workplace safety training.\n\nSkills\nEngine diagnostics, brake repair, transmission service, wheel alignment, tools and equipment care, customer explanations in English, Tagalog fluency, Android 12 smartphone used for job dispatch messages. Weekends I restore old motorcycles and help at a neighborhood food drive.",
+   "truth": {
+    "r1": "met",
+    "r2": "not_met",
+    "r3": "not_met",
+    "r4": "not_met",
+    "r5": "not_met",
+    "r6": "not_met",
+    "r7": "met",
+    "r8": "not_met",
+    "r9": "not_met",
+    "r10": "not_met"
+   },
+   "hardness": {
+    "r1": "explicit",
+    "r2": "absent",
+    "r3": "absent",
+    "r4": "absent",
+    "r5": "absent",
+    "r6": "absent",
+    "r7": "explicit",
+    "r8": "absent",
+    "r9": "absent",
+    "r10": "absent"
+   }
+  }
+ ]
+}

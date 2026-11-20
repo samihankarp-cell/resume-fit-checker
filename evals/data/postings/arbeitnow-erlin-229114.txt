@@ -1,0 +1,73 @@
+IT Systems Automation Engineer (f/m/x) at Bonial International GmbH
+
+bonial helps you save time, money and paper!
+
+We are a digital advertising partner for offline businesses - we support retailers in their marketing activities and help them find a new audience. Would you like to join and be a part of digitalisation of retail?
+
+bonial is part of Axel Springer SE and is disrupting the retail landscape as the leading "Drive to Store" partner in Germany and France. Through our platforms "kaufDA" and "MeinProspekt" in Germany, and “Bonial” in France, we connect millions of users with their favorite shops and brands—driving real impact every single day.
+We are in the midst of an exciting growth phase, scaling fast and transforming the way people discover retail. At bonial, we thrive in a high-performance, fast-paced environment fueled by motivated, results-driven individuals who are passionate about making a difference. If you’re looking to be part of a dynamic team that’s shaping the future of retail, we’d love to meet you.
+
+bonial welcomes both full- and part-timers!
+
+About The Role
+IT Operations keeps the company's core productivity, identity, and device ecosystem running smoothly and securely. As IT Systems Automation Engineer, you will own the design, implementation, and maintenance of automation across our corporate IT platforms (including M365, Google Workspace, JAMF, Microsoft Intune, Atlassian & Slack). You'll reduce manual work for the team, improve consistency and security across the employee lifecycle. You’ll help build the scripts, integrations, and workflows that let a 6-person team support the whole organization efficiently. This is a hands-on engineering role within IT Operations, not a helpdesk position - you'll spend most of your time building and improving systems rather than handling day-to-day tickets.
+
+What You’ll Do
+- Automate the employee lifecycle: Design and maintain automated workflows for onboarding, offboarding, and role changes across M365, Google Workspace, JAMF, Intune, and Slack (provisioning/deprovisioning accounts, licenses, group memberships, and device enrollment)
+
+- Device management: Build and maintain JAMF (macOS/iOS) and Intune (Windows/mobile) configuration profiles, compliance policies, and automated patch/update workflows.
+
+- Identity & access automation: Automate group and license assignment, conditional access rules, and access reviews across M365 and Google Workspace, working closely with the security team where relevant.
+
+- Collaboration tooling: Manage and automate Slack workspace administration - channel provisioning, app/integration approvals, user lifecycle, and usage policies.
+
+- Scripting & integration: Write and maintain scripts (PowerShell, Google Apps Script, or similar) and use APIs to connect systems that don't natively integrate.
+
+- Documentation & runbooks: Document automation logic, workflows, and recovery procedures so the rest of the team can support and extend what you build.
+
+- Monitoring & reliability: Set up monitoring/alerting for automated workflows so failures (e.g., a broken onboarding script) are caught and resolved quickly.
+
+- Continuous improvement: Identify manual, repetitive IT Operations tasks and propose/build automation to eliminate them.
+
+- Vendor & tooling evaluation: Assess new automation tools or platform features (e.g., new Intune or JAMF capabilities) and recommend adoption where it adds value.
+
+- Agentic support: Design, build, and operate AI agents that resolve common IT support requests end-to-end (e.g., password resets, access and software requests, device troubleshooting) via Slack or the service desk, connecting them to M365, Google Workspace, JAMF, and Intune through APIs, with clear guardrails, approval steps, human escalation paths, and audit logging.
+
+- AI enablement: Roll out and administer AI tools across the organization (e.g., Microsoft Copilot, Claude AI/Code, or similar), including license assignment, data access and governance settings, and usage policies, working closely with security, legal, and the works council where relevant, and support employees with onboarding guides, training materials, and best practices.
+
+What We’re Looking For
+- Required:
+• Experience in IT Operations, Systems Administration, or a similar role with hands-on scripting/automation responsibility.
+• Practical experience administering at least two of: Microsoft 365 (Entra ID/Exchange/SharePoint admin), Google Workspace, JAMF, Microsoft Intune.
+• Working proficiency in at least one scripting/automation language (PowerShell, Python, Bash, or Google Apps Script) and comfort using REST APIs.
+• Understanding of core identity and device management concepts: SSO, MDM/UEM, conditional access, device compliance.
+• Ability to document processes clearly for a small team that needs to maintain what you build.
+
+- Nice to Have:
+• Experience with Slack administration or Slack API/workflow automation.
+• Experience with a scripting/orchestration platform (e.g., Workato, Tines, Zapier, Azure Automation, or similar iPaaS tools).
+• Relevant certifications (e.g., Microsoft MS-102/MD-102, Jamf Certified Admin, Google Workspace Administrator).
+• Familiarity with security/compliance frameworks relevant to endpoint and identity management (e.g., SOC 2, ISO 27001).
+• Experience working on a small IT team where you own end-to-end delivery rather than a narrow slice of a larger org.
+
+What We Offer:
+High growth story - bonial is a high-growth and dynamic company with continuous potential into the future. We are a leading player and a driving force in an industry that is undergoing a massive and a once-in-a-lifetime shift from print to digital.
+Innovation & tech - we are a high-tech company focused on innovative technology, leveraging AI and other tools to maximize productivity and efficiency. We leverage these tools to continually enhance the performance of our company and our people, while driving results for our customers and users.
+Exciting environment for professional development - strong support for your professional development, backed-up by a feedback culture to help you identify your strengths and opportunities.
+Diversity - proud to be an equal opportunity workplace where we aim to enable everyone to show up as their full selves. We are committed to equal employment opportunity and to being a safe space regardless of race, religion, sex, sexual orientation, age, disability, gender, gender identity or gender expression.
+Wellbeing - we believe mental health is as important as being fit. That's why we're giving you free access to nilo.health, a mental health app. In terms of physical training, other than our awesome gym in the office, we also cover part of the subscription to the Urban Sports Club. We can also offer you a corporate pension scheme so you don't have to worry about your retirement.
+Sustainability - together with our Green team, we offer you the opportunity to engage in projects that promote sustainability, environmental development and the impact that we make on our planet.
+Flexibility - Currently, we have a policy that allows for up to 20% mobile work, which can be conducted from anywhere within Germany, and the option to work from abroad. Additionally, we offer 28 days of holiday. You also get an extra day for each calendar year (up to 30 days) as well as other occasions (moving, working on a social project, etc).*
+Modern office - Zen Rooms where employees can pray, relax or simply have some quiet time; fully equipped gym in the office, and a roof terrace for amazing social events.
+Free lunch – whenever you’re at the office, we offer you different lunch options – and it’s all on us! Enjoy your lunch at a nearby restaurant that partners with us! Hot and cold drinks, fruit, regular varied and healthy breakfasts and other snacks at the office are, of course, always available for free for our employees.*
+Social Culture – which encourages people to start conversations, build relationships and participate together in the community through regular team events.
+Partner for retail - we empower retailers to reach their customers in the most efficient and effective way possible. We see ourselves as a critical business partner for retail, and as highlighted in our Company Vision, we “Enrich local shopping for everyone. Everyday.”
+
+As part of the Axel Springer Group, we also align with the Axel Springer Essentials.
+
+If you think you could fit the bill, we'd love to hear from you!
+
+You can check out our bonial_people Instagram or read more about bonial culture and tech on Medium.
+
+*as per our current Works Agreements
+Find more English Speaking Jobs in Germany on Arbeitnow

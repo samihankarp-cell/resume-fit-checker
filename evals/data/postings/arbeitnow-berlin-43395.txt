@@ -1,0 +1,62 @@
+Developer C# / .NET as Freelancer (all genders) at Vexcash AG
+
+About Vexcash AG
+VEXCASH AG is Germany’s leading online provider of short-term loans. We offer our customers a quick and straightforward solution to bridge the gap until their next payday. More than 800,000 customers already rely on our service. Thanks to our innovative approach, they can secure financial liquidity without having to commit to a long-term agreement.
+We are looking for an experienced Developer C# / .NET to join our team and contribute to the development of modern, reliable, and scalable web applications in the FinTech sector as Freelancer.
+You will work in a skilled and collaborative environment using modern Microsoft technologies, primarily .NET 8+ and ASP.NET Core. Your main focus will be on designing and developing robust backend services, APIs, and data-driven applications while ensuring high standards of code quality, performance, security, and maintainability.
+Your responsibilities
+- Develop clean, maintainable, testable, and reusable C# code based on business requirements and user stories
+
+- Design, develop, and maintain backend applications and services using .NET 8+, ASP.NET Core, and Entity Framework Core
+
+- Design and implement RESTful APIs following best practices and scalable architecture principles
+
+- Work with SQL Server, including data modelling, query optimization, and performance tuning
+
+- Work with Entity Framework Core and ADO.NET for efficient data access and persistence
+
+- Implement automated unit and integration tests to ensure software quality and reliability
+
+- Apply software architecture principles, design patterns, and clean code practices
+
+- Collaborate using Git-based workflows and participate in code reviews
+
+- Contribute to CI/CD pipelines and automated deployments
+
+- Work with Microsoft Azure services and cloud-based architectures
+
+- Analyze, troubleshoot, and resolve technical, functional, and performance issues
+
+- Contribute to the continuous improvement of code quality, architecture, scalability, and development processes
+
+What you bring
+- Strong professional experience with C# and the .NET ecosystem
+
+- Hands-on experience with .NET Framework, including maintenance and enhancement of legacy applications
+
+- Strong experience with .NET 8+ and ASP.NET Core for modern backend development
+
+- Solid experience with Entity Framework Core and ADO.NET
+
+- Proven experience designing and building RESTful APIs
+
+- Strong knowledge of SQL Server, relational database design, and query optimization
+
+- Good understanding of software architecture principles, design patterns, and clean code
+
+- Experience with automated testing frameworks such as xUnit, NUnit, or MSTest
+
+- Experience using Git in collaborative development environments
+
+- Familiarity with CI/CD pipelines and automated deployment processes
+
+- Experience with Microsoft Azure and cloud-based application architectures
+
+- Experience working in agile development environments
+
+- Strong analytical and problem-solving skills with a strong focus on code quality
+
+- Good command of English, German is a plus
+
+If you are motivated and want to be part of our success story, then send us your CV right away. If you hesitate, it’s your own fault!
+Find Jobs in Germany on Arbeitnow

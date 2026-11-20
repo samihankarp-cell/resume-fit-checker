@@ -1,0 +1,190 @@
+{
+  "split": {
+    "dev_postings": 18,
+    "test_postings": 18,
+    "dev_pairs": 630,
+    "test_pairs": 591
+  },
+  "dev_selection_auc": {
+    "dec_v1": 0.98,
+    "gpt_v1": 0.9594,
+    "dec_v2": 0.9768,
+    "gpt_v2": 0.9584,
+    "ens_v1": 0.9826,
+    "ens_v2": 0.9854
+  },
+  "chosen": {
+    "system": "ens_v2",
+    "threshold_tuned_on_dev": 0.4
+  },
+  "test_all_candidates_at_0.5": {
+    "dec_v1": {
+      "n": 591,
+      "thr": 0.5,
+      "f1": 0.899,
+      "auc": 0.969,
+      "precision": 0.882,
+      "recall": 0.917,
+      "brier": 0.069,
+      "accuracy_by_case_type": {
+        "explicit": 0.954,
+        "paraphrased": 0.846,
+        "near_miss": 0.892,
+        "absent": 0.865
+      }
+    },
+    "gpt_v1": {
+      "n": 591,
+      "thr": 0.5,
+      "f1": 0.878,
+      "auc": 0.951,
+      "precision": 0.804,
+      "recall": 0.967,
+      "brier": 0.085,
+      "accuracy_by_case_type": {
+        "explicit": 0.99,
+        "paraphrased": 0.923,
+        "near_miss": 0.711,
+        "absent": 0.773
+      }
+    },
+    "dec_v2": {
+      "n": 591,
+      "thr": 0.5,
+      "f1": 0.891,
+      "auc": 0.962,
+      "precision": 0.899,
+      "recall": 0.884,
+      "brier": 0.076,
+      "accuracy_by_case_type": {
+        "explicit": 0.919,
+        "paraphrased": 0.817,
+        "near_miss": 0.892,
+        "absent": 0.899
+      }
+    },
+    "gpt_v2": {
+      "n": 591,
+      "thr": 0.5,
+      "f1": 0.896,
+      "auc": 0.954,
+      "precision": 0.84,
+      "recall": 0.96,
+      "brier": 0.07,
+      "accuracy_by_case_type": {
+        "explicit": 0.985,
+        "paraphrased": 0.913,
+        "near_miss": 0.795,
+        "absent": 0.816
+      }
+    },
+    "ens_v1": {
+      "n": 591,
+      "thr": 0.5,
+      "f1": 0.913,
+      "auc": 0.975,
+      "precision": 0.87,
+      "recall": 0.96,
+      "brier": 0.064,
+      "accuracy_by_case_type": {
+        "explicit": 0.99,
+        "paraphrased": 0.904,
+        "near_miss": 0.892,
+        "absent": 0.836
+      }
+    },
+    "ens_v2": {
+      "n": 591,
+      "thr": 0.5,
+      "f1": 0.926,
+      "auc": 0.976,
+      "precision": 0.916,
+      "recall": 0.937,
+      "brier": 0.058,
+      "accuracy_by_case_type": {
+        "explicit": 0.975,
+        "paraphrased": 0.865,
+        "near_miss": 0.928,
+        "absent": 0.903
+      }
+    }
+  },
+  "test_original_vs_chosen": {
+    "original(dec_v1@0.5)": {
+      "n": 591,
+      "thr": 0.5,
+      "f1": 0.899,
+      "auc": 0.969,
+      "precision": 0.882,
+      "recall": 0.917,
+      "brier": 0.069,
+      "accuracy_by_case_type": {
+        "explicit": 0.954,
+        "paraphrased": 0.846,
+        "near_miss": 0.892,
+        "absent": 0.865
+      }
+    },
+    "chosen(ens_v2@0.40)": {
+      "n": 591,
+      "thr": 0.4,
+      "f1": 0.925,
+      "auc": 0.976,
+      "precision": 0.887,
+      "recall": 0.967,
+      "brier": 0.058,
+      "accuracy_by_case_type": {
+        "explicit": 0.995,
+        "paraphrased": 0.913,
+        "near_miss": 0.88,
+        "absent": 0.87
+      }
+    },
+    "paired_bootstrap_chosen_minus_original": {
+      "f1_diff_ci95": [
+        0.007,
+        0.047
+      ],
+      "auc_diff_ci95": [
+        0.001,
+        0.015
+      ]
+    }
+  },
+  "test_end_to_end": {
+    "original": {
+      "spearman": 0.904,
+      "ranked_correctly": "15/18"
+    },
+    "chosen": {
+      "spearman": 0.954,
+      "ranked_correctly": "17/18"
+    }
+  },
+  "all_data_end_to_end_sanity": {
+    "original": {
+      "spearman": 0.902,
+      "ranked_correctly": "28/36"
+    },
+    "chosen": {
+      "spearman": 0.946,
+      "ranked_correctly": "35/36"
+    }
+  },
+  "extraction_all_36_postings": {
+    "v1": {
+      "extracted_items": 691,
+      "recall": 0.939,
+      "precision_vs_gold_list": 0.612,
+      "precision_counting_judged_genuine_extras": 0.831,
+      "required_flag_accuracy": 0.882
+    },
+    "v2": {
+      "extracted_items": 375,
+      "recall": 0.855,
+      "precision_vs_gold_list": 0.893,
+      "precision_counting_judged_genuine_extras": 0.989,
+      "required_flag_accuracy": 0.796
+    }
+  }
+}

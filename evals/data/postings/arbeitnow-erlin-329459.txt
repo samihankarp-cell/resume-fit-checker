@@ -1,0 +1,114 @@
+Full Stack Flutter Engineer – PHP/Go (m/f/x) at SIDES (SimplyDelivery GmbH)
+
+Your mission
+
+About SIDES
+
+Restaurants are where people come together over good food. We build the technology that keeps them running.
+
+SIDES is the operating system for hospitality: POS, payments, delivery, kitchen tools, self-order terminals, apps and webshops on one platform. Thousands of restaurants run on it and millions of transactions flow through it every month, peaking on a Friday night when nothing is allowed to fail.
+
+We have the owner's and the chef's back, so they can focus on their food and their guests. And it is not just code on a screen: our software runs on real hardware in real restaurants, from POS devices to self-order terminals and more.
+
+We love AI. These are wild times for software engineers, and we want to make the most of them: AI is part of every workflow at SIDES, and we are looking for people who are as excited about that as we are. Everyone on the team uses tools like Claude every day to write and review code, explore unfamiliar parts of the codebase, write tests and get from idea to shipped feature faster. We see it as a way to spend less time on boilerplate and more on what matters: good architecture, sound decisions and software that holds up on a busy Friday night. Nobody has figured all of this out yet. We experiment, share what works, drop what doesn't, and keep raising the bar together.
+
+Our tech stack: Flutter (mobile & web), Go, PHP, and AWS
+
+Your responsibilities
+
+- Deliver features end-to-end in a cross-functional team, from ideation and design to implementation, rollout and operations
+
+- Work across the entire stack, building Flutter experiences for iOS, Android, the web and self-order terminals, alongside Go and PHP backend services
+
+- Use AI tools such as Claude in your daily work and help the team improve how it works with them
+
+- Ensure operational quality through performance, security, reliability, scalability and observability, keeping ordering experiences running smoothly during peak service
+
+- Contribute to architectural and design decisions together with the team
+
+- Collaborate closely with other engineers through pair programming, code reviews and knowledge sharing
+
+- Help raise standards for testing, code quality and CI/CD
+
+- Build clean APIs, well-designed data models and user interfaces that stay fast during a busy service
+
+Your profile
+
+Qualifications:
+
+- 4+ years of experience as a Full Stack Engineer working on production software
+
+- Strong Flutter experience combined with hands-on backend development experience in Go or PHP
+
+- Ability and willingness to work across both frontend and backend every week, using Flutter, Go and PHP as part of a unified stack
+
+- Daily experience building with AI tools and curiosity about how they change the way software gets made
+
+- Pragmatic, solution-oriented mindset with a strong focus on quality
+
+- Solid understanding of MySQL, relational data modelling and API design
+
+- Experience with AWS and containerized deployments; Kubernetes is a plus
+
+- Ability to trace problems across the app, API and database, and weigh trade-offs beyond your own component
+
+- Independent, structured working style, with the ability to turn a rough problem statement into a tested, shipped solution without close supervision
+
+- Fluency in English; German is a plus
+
+Perks & Benefits
+
+Our Benefits: 
+
+- A recipe for success: With over a decade of experience in the gastronomy and delivery industry, SIDES is known as a true specialist in this field. Join a leading player and help shape the future of the market.
+
+- Ownership & impact: We give you the space to bring in your ideas, grow your strengths, and take real responsibility. You’ll work independently while being supported by a strong and collaborative team.
+
+- High-quality work setup: Modern hardware, ergonomic workstations, and a professional office environment ensure you can do your best work.
+
+- Hungry for growth: Continuous learning matters to us. Through regular feedback cycles, we actively support your personal and professional development.
+
+- A positive workplace culture: Enjoy a welcoming atmosphere, a trusting team culture, and our well-connected office in the heart of Berlin (Südkreuz).
+
+Workplace Environment Perks:
+
+- Central office location in Berlin
+
+- Regular office and team events
+
+- Snacks and drinks in the office
+
+- SIDES Library
+
+- Dog-friendly workplace
+
+- Onboarding lunch to help you settle in and connect with the team
+
+Your Benefits:
+
+- €50 monthly benefit allowance - your choice:
+
+- 
+- JobRad  
+
+- Deutschlandticket  
+
+- Company pension scheme (bAV)  
+
+- Wellhub
+
+- Urban Sports Club: Discounted membership with access to fitness, classes, and wellness activities.
+
+- Instahelp: Professional mental health support, available whenever you need it.
+
+- INCENT & Corporate Benefits: Attractive employee discounts and exclusive partner offers.
+
+- Hybrid work: A mix of office and home office, depending on your role and team.
+
+- Flexible working hours: Working hours that fit your daily life and offer real flexibility.
+
+- December 24th & 31st off: Fully off without deducting vacation days.
+
+- Company events: Our annual highlights - the SIDES Summer Party and our Christmas Get-together.
+
+Find Jobs in Germany on Arbeitnow

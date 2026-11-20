@@ -1,0 +1,29 @@
+Data Scientist (m/f/x) at Diamontech AG
+
+Your mission
+We know that healthcare is not the easiest industry to revolutionize (think regulation or market access). This means that resilience and ingenuity are essential qualities. For this exciting new opportunity in the fast-growing MedTech sector, we are looking for a Data Scientist (m/f/x) - to join our data science team in Berlin.
+- Work on complex, cross-functional projects along with data scientists, physicists, and engineers
+- Analyze spectroscopy data, using signal processing and machine learning techniques
+- Design experiments, to answer relevant questions through data science 
+- Use state-of-the-art frameworks and technologies, including ML libraries (scikit-learn, PyTorch), MLOps tools (MLflow, Docker), and AI-assisted development (e.g. coding agents)
+- Participate in decision-making processes
+Your profile
+- Expertise in machine learning, ideally applied to medical or biological data
+- Experience in the MedTech sector is a plus
+- Solid academic background: PhD or MSc in Physics, Biology or related discipline
+- Proficiency in Python: writing clean, tested, version-controlled code; working knowledge of Bash and Docker
+- Already living in Berlin or willing to relocate here, already holding a valid EU work permit
+- Strong communication skills in English, both written and spoken
+Why us?
+- The opportunity to make a difference and improve people's lives 
+- Work side by side together with top data scientists, physicists, hardware and software engineers
+- Access to a well-established technology and business network 
+- An enjoyable place to work in the heart of Berlin, with flexible working hours
+- A welcoming working culture that encourages personal growth as the basis for company growth
+- Last but not least, a competitive salary and a benefits package (e.g. lunch vouchers)
+The contract has a duration of one year, with the possibility to obtain a permanent contract afterwards.
+At DiaMonTech we have a diverse, highly motivated and skilled team of international professionals working towards our common goals. We give our talented and dynamic employees the opportunity to develop their potential, to take responsibility and to bring in creative new ideas. 
+We are an equal opportunity employer and do not discriminate against any employee or applicant for employment on the basis of race, color, sex, age, national origin, religion, sexual orientation, gender identity and/or expression, social status, and basis of disability or any other federal, state, or local protected class. 
+Interested? - Submit your CV, motivation letter, earliest starting date, salary expectations, and a confirmation that you have permission to work inside the EU.
+We're looking forward to hearing from you!
+Find Jobs in Germany on Arbeitnow

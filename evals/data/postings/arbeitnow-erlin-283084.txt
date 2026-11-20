@@ -1,0 +1,65 @@
+Product Manager/ Business Analyst As Freelancer (All Genders) at Vexcash AG
+
+About Vexcash AG
+VEXCASH AG is Germany’s leading online provider of short-term loans. We offer our customers a quick and straightforward solution to bridge the gap until their next payday. More than 800,000 customers already rely on our service. Thanks to our innovative approach, they can secure financial liquidity without having to commit to a long-term agreement.
+Your responsibilities
+- We are modernizing how our teams work by introducing new IT systems, automating processes and increasingly embedding AI tools. We need someone who turns a business need into a mapped process, a clear requirement and a rolled-out solution that people actually use.
+
+What you'll work on
+- Run several parallel organizational projects (typically 1–6 months, 2–4 people) that implement IT systems, automation and AI tools in business processes
+
+- Map as-is and to-be processes together with process owners, using BPMN, flowcharts or whatever notation fits the audience
+
+- Write business requirements for development, data and vendor teams: scope, user stories, acceptance criteria, edge cases
+
+- Set up and keep the project governance: charter, RACI, plan, risk & issue log, change requests, status reporting to management
+
+- Drive adoption after go-live: training, feedback loops, measuring whether the process really changed
+
+In your first 6 months you will
+- Deliver at least one system or process change end to end, from as-is analysis to measured adoption
+
+- Build a reusable project toolkit (templates, checklists) for further implementation projects
+
+Requirements
+- Must have
+
+Up-to-date trade registration to verify your company (and include their proposed monthly rate in their application.
+- 3–6 years in project management or business analysis in a structured organization
+
+- At least two cross-functional IT implementation, digitalization or automation projects taken from idea to adoption — and you can show the artifacts
+
+- Solid process analysis and modeling skills in a standard notation (BPMN, EPC or similar)
+
+- Experience writing business requirements that developers or vendors can build from
+
+- A formal PM approach (PMBOK, PRINCE2, IPMA or similar) that you actually apply, not just know
+
+- Fluent English (C1+) 
+
+- Everyday use of AI tools (ChatGPT, Claude or similar) in your own work
+
+Nice to have
+- Russian and German
+
+- PMP, PRINCE2, IPMA, CBAP or IREB certification
+
+- Hands-on BPMN 2.0
+
+- Basic SQL; experience with Fibery, Jira, Confluence or similar
+
+- Experience with vendor or SaaS selection and implementation
+
+- Background in fintech or another regulated industry
+
+This role is probably not for you if
+- You prefer moving fast over documenting decisions
+
+- You see RACI, risk logs and change control as bureaucracy rather than tools
+
+- You are looking for a portfolio or people-management role
+
+If you are motivated and excited about taking on this responsible role and becoming part of our success story, we encourage you to apply today!
+We look forward to hearing from you!
+
+Find more English Speaking Jobs in Germany on Arbeitnow

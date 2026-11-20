@@ -1,0 +1,10 @@
+# secrets and personal files - never commit
+.env
+resume.pdf
+posting.pdf
+
+# generated
+__pycache__/
+*.pyc
+*.log
+graph.png

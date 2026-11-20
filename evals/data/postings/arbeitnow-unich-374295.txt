@@ -1,0 +1,50 @@
+Staff Software Engineer at Skalar
+
+The opportunity
+How taxation, accounting and payroll work today is a pain for everyone. Still every business must do it continuously. It is the backbone our economy runs on.
+Enabled through AI, we are turning this often-painful process into a radically simple experience for our customers, so they can focus on what matters to them: growing their business.
+The role
+As a Staff Software Engineer, you are the technical counterpart to our founders. You look beyond a single product area: you shape the architecture across the platform, make the decisions that are expensive to reverse, and make sure we scale from one country to many without rewriting the core.
+You stay hands-on and write a lot of code – but your impact is measured by what the whole engineering team ships.
+What you’ll own
+- Technical direction: Define architecture and tech strategy across the platform; write and drive RFCs for the decisions that matter.
+- Core systems: Own the foundations every product area builds on – the domain model for tax and accounting logic and the integration layer to third-party systems.
+- AI correctness at scale: Set the standards for how we build, evaluate and monitor AI pipelines that have to be correct, not just plausible.
+- Scale and reliability: Prepare the platform for more countries, more customers and higher compliance demands – security, auditability, observability.
+- Engineering bar: Shape how we build – review standards, tooling, delivery practices; mentor senior engineers and own the technical hiring bar.
+- Partner to the founders: Translate business strategy into a technical roadmap and spot where technology creates leverage.
+Our tech context (greenfield)
+Prefer boring tech where it matters; innovate where it differentiates.
+Current stack (continually evolving): TypeScript end-to-end, Next.js (React) with server-side APIs, PostgreSQL, Vercel, …
+Most hard problems sit behind the API: data modelling for tax logic, third-party integrations, and AI pipelines.
+You will decide how this stack evolves as we scale.
+What you’ll bring
+- 8+ years building and operating production systems, including several years in a technical leadership role (Staff, Lead, Principal or equivalent)
+- A track record of designing and evolving the architecture of a product that scaled – in users, data and team size
+- Deep backend expertise: data modelling, API design, distributed systems, integrations; strong TypeScript/Node (or the depth to get there fast)
+- Influence without authority: you have led technical decisions across team boundaries, with clear written design docs
+- Experience making product and business trade-offs together with founders or senior leadership
+- You have mentored senior engineers and shaped hiring
+- AI deeply integrated into your daily engineering work, plus experience shipping LLM-based features to production
+- A degree in computer science or a related field – or an equivalent track record
+- Very good English (min. C1); German is a plus
+- A valid work permit for Germany and readiness to work on-site in Munich
+Nice to have
+- Early engineer at a start-up that scaled successfully
+- Systems in regulated domains (fintech, accounting, tax, payroll, insurance)
+- Multi-country or multi-jurisdiction platforms
+- LLM evaluation, RAG or agentic workflows at production scale
+What success looks like after 12 months
+- Our architecture is ready for the next country without a rewrite.
+- Engineers across product areas ship faster because of the foundations and standards you set.
+- You are the founders’ go-to partner for every major technical decision.
+What you’ll get
+- A seat at the table for product and company strategy
+- A senior IC path: grow towards Principal – or into engineering leadership, your choice
+- The perfect environment to build relevant skills in a world of AI
+- Above-market compensation + an equity package with real upside
+The process (fast, meaningful, no homework)
+- Intro call with a recruiter
+- Technical deep-dive with a fellow engineer: walk us through a system you designed (virtually or in person)
+- Meet our founding team in a final interview (in person, ~3h, incl. system design and live coding)
+Find more English Speaking Jobs in Germany on Arbeitnow

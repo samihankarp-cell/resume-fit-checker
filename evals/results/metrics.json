@@ -1,0 +1,108 @@
+{
+  "extraction": {
+    "postings": 36,
+    "gold_requirements": 407,
+    "extracted_requirements": 691,
+    "recall": 0.9385749385749386,
+    "precision": 0.6121562952243126,
+    "required_flag_accuracy": 0.8821989528795812
+  },
+  "verification": {
+    "pairs": 1221,
+    "resumes": 108,
+    "positive_rate": 0.5077805077805078
+  },
+  "decisions_api": {
+    "n": 1221,
+    "accuracy": 0.9025389025389026,
+    "precision": 0.9046849757673667,
+    "recall": 0.9032258064516129,
+    "f1": 0.903954802259887,
+    "auc": 0.9739520154581074,
+    "brier": 0.06291846865697757,
+    "ece": 0.0441942857072081,
+    "f1_ci95": [
+      0.8841665919483547,
+      0.9220888589764249
+    ],
+    "auc_ci95": [
+      0.9650585808307149,
+      0.9820576577216699
+    ],
+    "f1_crossfit_tuned_threshold": 0.9153069153069153,
+    "best_threshold_all_data": 0.35,
+    "accuracy_by_case_type": {
+      "explicit": {
+        "n": 418,
+        "accuracy": 0.9449760765550239
+      },
+      "paraphrased": {
+        "n": 202,
+        "accuracy": 0.8168316831683168
+      },
+      "near_miss": {
+        "n": 173,
+        "accuracy": 0.9364161849710982
+      },
+      "absent": {
+        "n": 428,
+        "accuracy": 0.8878504672897196
+      }
+    }
+  },
+  "gpt4o_mini_baseline": {
+    "n": 1221,
+    "accuracy": 0.8746928746928747,
+    "precision": 0.817687074829932,
+    "recall": 0.9693548387096774,
+    "f1": 0.8870848708487085,
+    "auc": 0.9553016477913157,
+    "brier": 0.07645102375102375,
+    "ece": 0.07273546273546272,
+    "f1_ci95": [
+      0.8726719160761341,
+      0.9054950869236583
+    ],
+    "auc_ci95": [
+      0.9438249707341378,
+      0.967778010960206
+    ],
+    "f1_crossfit_tuned_threshold": 0.9090909090909091,
+    "best_threshold_all_data": 0.75,
+    "accuracy_by_case_type": {
+      "explicit": {
+        "n": 418,
+        "accuracy": 0.992822966507177
+      },
+      "paraphrased": {
+        "n": 202,
+        "accuracy": 0.9207920792079208
+      },
+      "near_miss": {
+        "n": 173,
+        "accuracy": 0.7341040462427746
+      },
+      "absent": {
+        "n": 428,
+        "accuracy": 0.794392523364486
+      }
+    }
+  },
+  "confidence_analysis": {
+    "max_abs_diff_from_max(p,1-p)": 0.0,
+    "pearson_with_max(p,1-p)": 0.9999999999999999,
+    "accuracy_low_conf_half": 0.8114754098360656,
+    "accuracy_high_conf_half": 0.9934533551554828
+  },
+  "end_to_end": {
+    "postings": 36,
+    "spearman_required_met_score_decisions": 0.9020772947817131,
+    "spearman_required_met_score_baseline": 0.9013677273612193,
+    "strong>partial>weak_ranked_correctly_decisions": "28/36",
+    "strong>partial>weak_ranked_correctly_baseline": "27/36"
+  },
+  "latency_median_seconds_per_resume": {
+    "decisions_api": 0.314139723777771,
+    "gpt4o_mini_baseline": 1.9391182661056519
+  }
+}

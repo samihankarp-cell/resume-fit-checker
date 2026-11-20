@@ -1,0 +1,59 @@
+Lead Systems Engineer (Orbital Launch) at Stealthrocketrystartup
+
+Lead Systems Engineer
+We are looking for a Lead Systems Engineer to act as the Systems Technical Authority for our orbital rocket programme. You will lead the vehicle-level systems effort, maintaining a coherent technical view of the complete vehicle and leading the definition, management, and resolution of system interfaces.
+Working with multidisciplinary teams across avionics, software, structures, propulsion, GNC, and more, you will manage the interdependencies between technical departments and use model-based systems engineering (MBSE) to keep system-level decisions connected. Your work will lay the technical foundation for successful vehicle integration and launch.
+
+About us
+We’re a Germany-based rocketry startup currently in stealth mode, scaling up rapidly to meet the demand for high-performance, reliable, and scalable solid propulsion technologies for space and defense applications.
+We are already launching suborbital and ballistic rockets on a regular basis, generating significant revenue and applying our knowledge toward the development of an orbital rocket.
+We are working hard to build something truly spectacular.
+To thrive here you will need to be comfortable working at pace, with the autonomy to make decisions and execute on them quickly. If you’re excited by hard technical challenges and want a role where you will make a real difference each day to the future of the company, we may be the place for you.
+
+At our company, job titles and career progression are earned, not determined by years of experience alone. They reflect the responsibility you take on and the dedication you bring to each project. If you’re ready to rise to the challenge, we’d love to hear from you.
+
+Key responsibilities
+- Act as the Systems Technical Authority for the orbital rocket programme, providing vehicle-level systems leadership and maintaining technical coherence across the complete vehicle.
+
+- Lead the definition, ownership, and resolution of system interfaces across avionics, software, structures, propulsion, GNC, and other technical departments.
+
+- Identify and manage interdependencies, assumptions, constraints, and cross-subsystem impacts as the vehicle design develops.
+
+- Use MBSE models and related system artefacts to maintain a connected view of vehicle architecture, requirements, and interfaces.
+
+- Lead cross-disciplinary systems discussions and reviews, bringing forward system-level trade-offs, resolving technical conflicts, and ensuring decisions are clearly recorded.
+
+- Coordinate technical departments around vehicle-level priorities and help keep subsystem work aligned with the needs of the overall programme.
+
+- Track system-level issues and interface actions through to resolution, helping establish the conditions for successful vehicle integration and launch.
+
+What we’re looking for
+- Strong understanding of model-based systems engineering and its application to complex, multidisciplinary engineering programmes.
+
+- Strong understanding of rocketry and how vehicle subsystems interact across the complete system.
+
+- Experience leading systems engineering work, system interfaces, or cross-disciplinary technical efforts on complex engineering projects.
+
+- A proven track record of successfully completing engineering projects.
+
+- The ability to maintain a vehicle-level perspective while engaging with technical teams across avionics, software, structures, propulsion, GNC, and other disciplines.
+
+- Confidence facilitating technical decisions, managing competing subsystem needs, and driving interface issues toward resolution.
+
+Benefits and important information:
+- We offer top-decile compensation packages, bonuses and meaningful equity, to attract exceptional aerospace talent. 
+
+- Every employee is awarded stock options in the company, you will directly benefit from your own hard work and success. 
+
+- Comprehensive relocation support including flights, shipping and visas.
+
+- Lunch, dinner and drinks provided everyday
+
+- Free access to shared company housing
+
+Please note, we are a fast paced, hyper-scaling startup. You will need to be comfortable working extended hours with high levels of autonomy, ownership, and flexibility, with contracts structured around a 48-hour working week. 
+We are committed to building an equitable and inclusive workplace where everyone feels valued, has equal access to opportunity, and can thrive. We welcome different perspectives, backgrounds, and experiences—and believe our differences make us stronger. 
+
+Please submit applications in English
+
+Find more English Speaking Jobs in Germany on Arbeitnow
