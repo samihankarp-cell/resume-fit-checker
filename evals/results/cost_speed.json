@@ -1,0 +1,52 @@
+{
+  "resumes_timed": 30,
+  "requirements_per_resume_mean": 11.4,
+  "prices_usd_per_1M_tokens": {
+    "gpt_in": 0.15,
+    "gpt_out": 0.6,
+    "dec_in": 0.1,
+    "dec_out": 0.0
+  },
+  "verification": {
+    "gpt_only": {
+      "latency_median_s": 2.18689274999997,
+      "latency_mean_s": 2.3018648933334287,
+      "latency_p90_s": 2.678228640000634,
+      "input_tokens_mean": 727.7666666666667,
+      "output_tokens_mean": 138.4,
+      "cost_per_resume_usd": 0.000192205,
+      "cost_per_1000_resumes_usd": 0.19220500000000001
+    },
+    "decisions_only": {
+      "latency_median_s": 0.27384580000034475,
+      "latency_mean_s": 0.32028572000011385,
+      "latency_p90_s": 0.4233461399999215,
+      "input_tokens_mean": 1773.6333333333334,
+      "output_tokens_mean": 0.0,
+      "cost_per_resume_usd": 0.00017736333333333334,
+      "cost_per_1000_resumes_usd": 0.17736333333333335
+    },
+    "both_shipped": {
+      "latency_median_s": 2.3147731000008207,
+      "latency_mean_s": 2.352228593333348,
+      "latency_p90_s": 2.6741628000005226,
+      "input_tokens_mean": 2501.4,
+      "output_tokens_mean": 138.4,
+      "cost_per_resume_usd": 0.00036956833333333334,
+      "cost_per_1000_resumes_usd": 0.36956833333333333,
+      "note": "tokens/cost derived as gpt_only + decisions_only (callback did not follow the node worker threads); latency measured directly"
+    }
+  },
+  "adding_decisions_to_gpt": {
+    "extra_latency_median_s": 0.07001239999954123,
+    "extra_cost_per_resume_usd": 0.00017736333333333334,
+    "extra_cost_per_1000_resumes_usd": 0.17736333333333335
+  },
+  "extraction_per_posting_shared_by_all_setups": {
+    "latency_median_s": 6.182866999999533,
+    "input_tokens_mean": 2696.0,
+    "output_tokens_mean": 498.2,
+    "cost_per_posting_usd": 0.0007033199999999999,
+    "postings": 10
+  }
+}

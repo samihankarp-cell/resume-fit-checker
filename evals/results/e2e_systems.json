@@ -1,0 +1,72 @@
+{
+  "resumes_compared": 50,
+  "postings": 17,
+  "failed_runs": [
+    "B|arbeitnow-erlin-329459-strong",
+    "B|remotive-1749306-strong",
+    "B|remotive-1749306-partial",
+    "A|remotive-1749306-weak"
+  ],
+  "systems": {
+    "A": {
+      "accuracy_all_gold_pairs": {
+        "pairs": 550,
+        "f1": 0.7950963222416813,
+        "precision": 0.7643097643097643,
+        "recall": 0.8284671532846716,
+        "accuracy": 0.7872727272727272
+      },
+      "verification_only_f1_on_matched_pairs": 0.8209764918625678,
+      "requirements_found_of_gold": 0.9036363636363637,
+      "extracted_items_per_run": 14.68,
+      "ranking_strong>partial>weak": "15/17",
+      "spearman_vs_gold_score": 0.7452501522467536,
+      "time_per_resume_s": {
+        "median": 8.59337344999949,
+        "mean": 17.645940274000022,
+        "p90": 33.87582451000077
+      },
+      "tokens_per_resume_mean": {
+        "gpt_in": 3414.14,
+        "gpt_out": 613.8,
+        "dec_in": 0.0,
+        "dec_out": 0.0
+      },
+      "cost_per_resume_usd": 0.0008804009999999998,
+      "cost_per_1000_resumes_usd": 0.8804009999999999,
+      "total_cost_this_test_usd": 0.04402004999999999
+    },
+    "B": {
+      "accuracy_all_gold_pairs": {
+        "pairs": 550,
+        "f1": 0.7969052224371374,
+        "precision": 0.8477366255144033,
+        "recall": 0.7518248175182481,
+        "accuracy": 0.8090909090909091
+      },
+      "verification_only_f1_on_matched_pairs": 0.8190854870775348,
+      "requirements_found_of_gold": 0.92,
+      "extracted_items_per_run": 14.82,
+      "ranking_strong>partial>weak": "14/17",
+      "spearman_vs_gold_score": 0.8123817200900423,
+      "time_per_resume_s": {
+        "median": 6.126072600000043,
+        "mean": 11.66910459400009,
+        "p90": 10.264145219999419
+      },
+      "tokens_per_resume_mean": {
+        "gpt_in": 2556.16,
+        "gpt_out": 441.34,
+        "dec_in": 2264.74,
+        "dec_out": 0.0
+      },
+      "cost_per_resume_usd": 0.0008747019999999999,
+      "cost_per_1000_resumes_usd": 0.8747019999999999,
+      "total_cost_this_test_usd": 0.04373509999999999
+    }
+  },
+  "F1_B_minus_A_95ci_over_postings": [
+    -0.038755319584893685,
+    0.03982880928713393
+  ]
+}

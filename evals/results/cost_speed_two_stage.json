@@ -1,0 +1,98 @@
+{
+  "postings": 10,
+  "resumes_per_posting": 10,
+  "requirements_per_posting_mean": 15.9,
+  "failed_calls": [],
+  "systems": {
+    "A": {
+      "stage1_per_posting": {
+        "secs_median": 5.6159566000005725,
+        "cost_usd": 0.0007033799999999999,
+        "gpt_in": 2696.0,
+        "gpt_out": 498.3
+      },
+      "stage2_per_resume": {
+        "n": 100,
+        "secs_median": 2.3871160499993493,
+        "secs_mean": 2.665799583999724,
+        "secs_p90": 4.293952080001333,
+        "cost_usd": 0.0002508945,
+        "gpt_in": 913.11,
+        "gpt_out": 189.88,
+        "dec_in": 0.0
+      },
+      "per_resume_all_in_by_resumes_per_posting": {
+        "1": {
+          "cost_usd": 0.0009542744999999999,
+          "cost_per_1000_usd": 0.9542744999999999,
+          "secs": 10.40222408399979
+        },
+        "10": {
+          "cost_usd": 0.00032123249999999997,
+          "cost_per_1000_usd": 0.3212325,
+          "secs": 3.439442033999731
+        },
+        "100": {
+          "cost_usd": 0.0002579283,
+          "cost_per_1000_usd": 0.2579283,
+          "secs": 2.7431638289997244
+        },
+        "1000": {
+          "cost_usd": 0.00025159788,
+          "cost_per_1000_usd": 0.25159788,
+          "secs": 2.6735360084997235
+        }
+      },
+      "measured_batch_total": {
+        "resumes": 100,
+        "cost_usd": 0.03212325,
+        "secs": 343.94420339997305
+      }
+    },
+    "B": {
+      "stage1_per_posting": {
+        "secs_median": 5.6051687000008314,
+        "cost_usd": 0.00070224,
+        "gpt_in": 2691.6,
+        "gpt_out": 497.5
+      },
+      "stage2_per_resume": {
+        "n": 100,
+        "secs_median": 0.33138454999971145,
+        "secs_mean": 0.3809329750000143,
+        "secs_p90": 0.4952398599996741,
+        "cost_usd": 0.00024277000000000004,
+        "gpt_in": 0.0,
+        "gpt_out": 0.0,
+        "dec_in": 2427.7
+      },
+      "per_resume_all_in_by_resumes_per_posting": {
+        "1": {
+          "cost_usd": 0.00094501,
+          "cost_per_1000_usd": 0.94501,
+          "secs": 18.794820805000764
+        },
+        "10": {
+          "cost_usd": 0.00031299400000000003,
+          "cost_per_1000_usd": 0.31299400000000005,
+          "secs": 2.2223217580000894
+        },
+        "100": {
+          "cost_usd": 0.0002497924,
+          "cost_per_1000_usd": 0.24979240000000005,
+          "secs": 0.5650718533000217
+        },
+        "1000": {
+          "cost_usd": 0.00024347224000000005,
+          "cost_per_1000_usd": 0.24347224000000003,
+          "secs": 0.399346862830015
+        }
+      },
+      "measured_batch_total": {
+        "resumes": 100,
+        "cost_usd": 0.0312994,
+        "secs": 222.23217580000892
+      }
+    }
+  }
+}

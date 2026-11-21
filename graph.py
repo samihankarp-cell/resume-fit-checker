@@ -1,5 +1,10 @@
+import contextvars
+import hashlib
+import json
 import os
 import re
+import sys
+import threading
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from typing import List, Optional, Tuple
@@ -18,7 +23,14 @@ gemini = genai.Client(
     http_options={"api_version": "v1beta", "timeout": 60_000},
 )
 
-YES_THRESHOLD = 0.4  # chosen on the dev half of the eval set (see evals/improve_eval.py); was 0.5
+# Which judge verifies requirements: "decisions" (default: Google Decisions API only, fastest and cheapest)
+# or "ensemble" (Decisions + GPT-4o-mini averaged: about +3 F1 points, ~8x slower, ~2x the cost).
+# Set with the VERIFIER environment variable.
+VERIFIER = os.getenv("VERIFIER", "decisions").strip().lower()
+if VERIFIER not in ("decisions", "ensemble"):
+    raise ValueError(f"VERIFIER must be 'decisions' or 'ensemble', got {VERIFIER!r}")
+# The ensemble's 0.4 was chosen on the dev half of the eval set (evals/improve_eval.py); Decisions-only uses 0.5.
+YES_THRESHOLD = {"decisions": 0.5, "ensemble": 0.4}[VERIFIER]
 
 
 # ---------------------------------------------------------------- data models
@@ -212,14 +224,41 @@ def gpt_verify(resume_text: str, reqs: List[Requirement]) -> List[float]:
     return [got.get(f"req_{i}", 0.0) for i in range(len(reqs))]
 
 
+# ------------------------------------------- stage 1: extract once per posting
+# The requirement list is saved to disk, so a posting is read by the AI one time no matter how many
+# resumes are checked, and every candidate is scored against the identical list.
+REQ_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "requirements_cache")
+
+
+def posting_key(raw_text: str) -> str:
+    # includes the prompts, so editing them invalidates previously saved lists
+    blob = "\n".join([raw_text, EXTRACT_SYSTEM, FLAGGER_SYSTEM])
+    return hashlib.sha256(blob.encode("utf-8")).hexdigest()[:16]
+
+
+def extract_once(posting_path: str) -> Tuple[List[Requirement], List[str], bool]:
+    """Return (requirements, removed injection sentences, loaded_from_cache). Calls the AI only on the first run."""
+    raw = read_document(posting_path)
+    path = os.path.join(REQ_CACHE_DIR, posting_key(raw) + ".json")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            saved = json.load(f)
+        return [Requirement(**r) for r in saved["requirements"]], saved["flagged_lines"], True
+    clean, flagged = sanitize_posting(raw)
+    reqs = extract_from_text(clean)
+    os.makedirs(REQ_CACHE_DIR, exist_ok=True)
+    tmp = f"{path}.{os.getpid()}.{threading.get_ident()}.tmp"  # write then rename, so a reader never sees half a file
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump({"posting_file": os.path.basename(posting_path), "requirements": [r.model_dump() for r in reqs],
+                   "flagged_lines": flagged}, f, indent=2)
+    os.replace(tmp, path)
+    return reqs, flagged, False
+
+
 # ----------------------------------------------------------------- graph nodes
-def load_posting(state: State):
-    clean, flagged = sanitize_posting(read_document(state.posting_path))
-    return {"posting_text": clean, "flagged_lines": state.flagged_lines + flagged}
-
-
-def extract_requirements(state: State):
-    return {"requirements": Requirements(requirements=extract_from_text(state.posting_text))}
+def load_requirements(state: State):
+    reqs, flagged, _ = extract_once(state.posting_path)
+    return {"requirements": Requirements(requirements=reqs), "flagged_lines": state.flagged_lines + flagged}
 
 
 def load_resume(state: State):
@@ -229,10 +268,17 @@ def load_resume(state: State):
 
 def verify_requirements(state: State):
     reqs = state.requirements.requirements
-    # Two independent judges run in parallel; their errors differ, so the average beats either alone.
+    if VERIFIER == "decisions":
+        scored = decisions_verify(state.resume_text, reqs)
+        return {"matches": [
+            Match(requirement=r, met=p >= YES_THRESHOLD, probability=p, confidence=c)
+            for r, (p, c) in zip(reqs, scored)
+        ]}
+    # Ensemble: two independent judges run in parallel; their errors differ, so the average beats either alone.
     with ThreadPoolExecutor(2) as pool:
-        dec_future = pool.submit(decisions_verify, state.resume_text, reqs)
-        gpt_future = pool.submit(gpt_verify, state.resume_text, reqs)
+        # copy_context lets token counters and tracing follow the call into the worker thread
+        dec_future = pool.submit(contextvars.copy_context().run, decisions_verify, state.resume_text, reqs)
+        gpt_future = pool.submit(contextvars.copy_context().run, gpt_verify, state.resume_text, reqs)
         dec, gpt = dec_future.result(), gpt_future.result()
     matches = []
     for r, (p_dec, _), p_gpt in zip(reqs, dec, gpt):
@@ -243,31 +289,49 @@ def verify_requirements(state: State):
 
 
 builder = StateGraph(State)
-builder.add_node("load_posting", load_posting)
-builder.add_node("extract_requirements", extract_requirements)
+builder.add_node("load_requirements", load_requirements)
 builder.add_node("load_resume", load_resume)
 builder.add_node("verify_requirements", verify_requirements)
 
-builder.add_edge(START, "load_posting")
-builder.add_edge("load_posting", "extract_requirements")
-builder.add_edge("extract_requirements", "load_resume")
+builder.add_edge(START, "load_requirements")
+builder.add_edge("load_requirements", "load_resume")
 builder.add_edge("load_resume", "verify_requirements")
 builder.add_edge("verify_requirements", END)
 
 app = builder.compile()
 
 
+# ------------------------------------------------- stage 2: loop over resumes
+def check_resumes(posting_path: str, resume_paths: List[str]) -> dict:
+    """Extract the posting's requirements ONCE, then check every resume against that same saved list."""
+    extract_once(posting_path)  # first call does the AI work and saves the list; the runs below just load it
+    return {rp: app.invoke({"posting_path": posting_path, "resume_path": rp}) for rp in resume_paths}
+
+
+def _resume_files(args: List[str]) -> List[str]:
+    files = []
+    for a in args:
+        if os.path.isdir(a):
+            files += sorted(os.path.join(a, f) for f in os.listdir(a) if f.lower().endswith((".pdf", ".txt")))
+        else:
+            files.append(a)
+    return files
+
+
 if __name__ == "__main__":
-    out = app.invoke({"posting_path": "posting.pdf", "resume_path": "resume.pdf"})
-
-    for m in out["matches"]:
-        tag = "YES" if m.met else "NO "
-        kind = "REQUIRED" if m.requirement.required else "nice to have"
-        print(f"{tag} | p={m.probability:.2f} | {kind} | {m.requirement.text}")
-
-    required = [m for m in out["matches"] if m.requirement.required]
-    print(f"\nRequired met: {sum(m.met for m in required)} / {len(required)}")
-    if out["flagged_lines"]:
-        print("\nRemoved as suspected prompt injection:")
-        for line in out["flagged_lines"]:
+    # usage: python graph.py [posting] [resume_or_folder ...]    (defaults: posting.pdf resume.pdf)
+    posting = sys.argv[1] if len(sys.argv) > 1 else "posting.pdf"
+    resumes = _resume_files(sys.argv[2:]) or ["resume.pdf"]
+    for rp, out in check_resumes(posting, resumes).items():
+        print(f"\n===== {os.path.basename(rp)} =====")
+        for m in out["matches"]:
+            tag = "YES" if m.met else "NO "
+            kind = "REQUIRED" if m.requirement.required else "nice to have"
+            print(f"{tag} | p={m.probability:.2f} | {kind} | {m.requirement.text}")
+        required = [m for m in out["matches"] if m.requirement.required]
+        print(f"Required met: {sum(m.met for m in required)} / {len(required)}")
+    _, removed, _ = extract_once(posting)
+    if removed:
+        print("\nRemoved from the posting as suspected prompt injection:")
+        for line in removed:
             print("  -", line)

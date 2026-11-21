@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 *.log
 graph.png
+
+# generated: saved requirement lists
+requirements_cache/
